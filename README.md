@@ -18,14 +18,6 @@ Selama internship, saya berkesempatan untuk mendesain ulang tampilan UI/UX Hello
 - CSS3
 - (akan ditambahkan seiring pengembangan lebih lanjut, misalnya JavaScript)
 
-## 📂 Struktur File
-
-```
-hellocation/
-├── index.html
-├── style.css
-└── README.md
-```
 
 ## 🚧 Status Pengembangan
 
