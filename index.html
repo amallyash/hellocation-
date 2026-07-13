@@ -1,120 +1,151 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hellocation - Solusi Kuliah ke Luar Negeri</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello Cation - Solusi Lengkap Kuliah ke Luar Negeri</title>
+  
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
   <header class="navbar">
-    <div class="logo">
+    <a href="index.html" class="logo">
       <span class="logo-badge">Hc</span>
       <span class="logo-text">Hello<br>Cation</span>
-    </div>
+    </a>
     <nav class="nav-links">
-      <a href="#" class="active">Home</a>
-      <a href="#about">About Us</a>
-      <a href="#article">Article</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="article.html">Article</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- HERO -->
+  <!-- HERO SECTION -->
   <section class="hero">
     <div class="hero-text">
-      <h1>Solusi Lengkap Kuliah ke Luar Negri dalam satu Genggaman</h1>
-      <p>Kanal informasi yang membagikan informasi mengenai beasiswa dari berbagai negara. Jelajahi kebutuhanmu mengenai beasiswa mulai dari legalisasi, program bahasa, hingga jenjang karir.</p>
-      <div class="tags">
-        <span class="tag">Korea</span>
-        <span class="tag">Beasiswa</span>
-        <span class="tag">Scholarship</span>
-        <span class="tag">Study Abroad</span>
+      <h1>Solusi Lengkap Kuliah ke Luar Negri dalam <span>satu Genggaman</span></h1>
+      <p>kanal informasi yang membagikan informasi mengenai beasiswa dari berbagai negara. Jelajahi kebutuhanmu mengenai beasiswa mulai dari legalisasi, program bahasa, hingga jenjang karir.</p>
+      
+      <div class="tags-row">
+        <span class="tag-pill">Korea</span>
+        <span class="tag-pill">Beasiswa</span>
+        <span class="tag-pill">Scholarship</span>
+        <span class="tag-pill">Study Abroad</span>
       </div>
-      <div class="hero-buttons">
-        <button class="btn btn-solid">Pelajari Selengkapnya</button>
-        <button class="btn btn-outline">Gabung Sekarang</button>
+
+      <div class="buttons-row">
+        <a href="services.html" class="btn">Pelajari Selengkapnya</a>
+        <a href="contact.html" class="btn btn-outline-pink">Gabung Sekarang</a>
       </div>
     </div>
     <div class="hero-image">
-      <div class="placeholder-box"></div>
+      <div class="hero-image-placeholder" style="background-image: url('hero_student.png'); background-size: cover; background-position: center; border: 8px solid var(--pink-soft);">
+      </div>
     </div>
   </section>
 
-  <div class="strip"></div>
-
-  <!-- SERVICES -->
-  <section class="services">
-    <h2>Kami Hadir Untuk Mendampingi Perjalananmu Belajarmu</h2>
-    <div class="services-subtitle">
-      <span>Dari cari beasiswa, Persiapan dokumen, Hingga belajar bahasa</span>
+  <!-- WHY HELLOCATION SECTION -->
+  <section class="services-intro-section" style="background: var(--white); padding-bottom: 2rem;">
+    <h2 class="section-title" style="margin-bottom: 1rem;">Kami Hadir Untuk Mendampingi Perjalanan Belajarmu</h2>
+    <div class="services-intro-pill" style="background-color: var(--pink-soft); color: var(--pink-main); border: 1.5px solid var(--pink-soft); font-weight: 700; margin-bottom: 4rem;">
+      Dari cari beasiswa, Persiapan dokumen, Hingga belajar bahasa
     </div>
 
-    <div class="cards-row">
+    <div class="cards-row" style="max-width: 1100px; margin: 0 auto;">
+      <!-- Card 1 -->
       <div class="service-card">
-        <div class="avatar-circle"></div>
+        <div class="avatar-circle">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
         <h3>Informasi Beasiswa</h3>
-        <p>Telusuri informasi beasiswa mulai dari jenjang D1 hingga S2</p>
-        <button class="btn btn-solid small">Pelajari Selengkapnya</button>
+        <p>Telusuri informasi beasiswa mulai dari jenjang D1 hingga S2 dari berbagai belahan dunia.</p>
+        <a href="services.html" class="btn btn-pink small">Pelajari Selengkapnya</a>
       </div>
+      <!-- Card 2 -->
       <div class="service-card">
-        <div class="avatar-circle"></div>
+        <div class="avatar-circle">
+          <i class="fa-solid fa-user-group"></i>
+        </div>
         <h3>Mentorship</h3>
-        <p>Bimbingan untuk persiapan beasiswa ke luar negeri</p>
-        <button class="btn btn-solid small">Pelajari Selengkapnya</button>
+        <p>Bimbingan untuk persiapan beasiswa ke luar negeri oleh alumni kampus top dunia.</p>
+        <a href="mentorship.html" class="btn btn-pink small">Pelajari Selengkapnya</a>
       </div>
+      <!-- Card 3 -->
       <div class="service-card">
-        <div class="avatar-circle"></div>
+        <div class="avatar-circle">
+          <i class="fa-solid fa-file-signature"></i>
+        </div>
         <h3>Apostille</h3>
-        <p>Layanan penerjemah tersumpah hingga kedutaan</p>
-        <button class="btn btn-solid small">Pelajari Selengkapnya</button>
+        <p>Layanan penerjemah tersumpah dokumen akademik dan hukum hingga kedutaan resmi.</p>
+        <a href="apostille.html" class="btn btn-pink small">Pelajari Selengkapnya</a>
       </div>
+      <!-- Card 4 -->
       <div class="service-card">
-        <div class="avatar-circle"></div>
+        <div class="avatar-circle">
+          <i class="fa-solid fa-language"></i>
+        </div>
         <h3>Belajar Bahasa</h3>
-        <p>Pelajari bahasa dari seluruh dunia dengan mudah</p>
-        <button class="btn btn-solid small">Pelajari Selengkapnya</button>
+        <p>Pelajari bahasa dari seluruh dunia dengan mudah bersama pengajar berpengalaman.</p>
+        <a href="bahasa.html" class="btn btn-pink small">Pelajari Selengkapnya</a>
       </div>
     </div>
   </section>
 
-  <!-- UPCOMING EVENTS -->
-  <section class="events">
-    <h2>Upcoming Events</h2>
-    <p class="events-desc">Jangan lewatkan kesempatan belajar dan berkembang bersama <strong>Hellocation</strong>.<br>
-    Ikuti event yang dibuat untuk mendukung tujuan <strong>akademik</strong> dan <strong>kariermu</strong>.</p>
+  <!-- UPCOMING EVENTS SECTION -->
+  <section class="events" style="background: var(--pink-pale); border-top: 1.5px solid var(--pink-soft); border-bottom: 1.5px solid var(--pink-soft);">
+    <h2 class="section-title">Upcoming Events</h2>
+    <p class="events-subtitle">Jangan lewatkan kesempatan belajar dan berkembang bersama <strong>Hellocation</strong>. Ikuti event yang dibuat untuk mendukung tujuan akademik dan kariermu.</p>
 
-    <div class="carousel">
-      <button class="arrow arrow-left">&#10094;</button>
-      <div class="event-cards">
-        <div class="event-card">
-          <div class="event-image"></div>
-          <span class="event-label">Event</span>
-          <h4>Gratis Webinar Persiapan Karir</h4>
-          <button class="btn btn-solid small">Daftar Sekarang</button>
-        </div>
-        <div class="event-card featured">
-          <div class="event-image"></div>
-          <span class="event-label">Event</span>
-          <h4>Gratis Webinar Perisiapan Karir</h4>
-          <button class="btn btn-solid small">Daftar Sekarang</button>
-        </div>
-        <div class="event-card">
-          <div class="event-image"></div>
-          <span class="event-label">Event</span>
-          <h4>Gratis Webinar Perisiapan Karir</h4>
-          <button class="btn btn-solid small">Daftar Sekarang</button>
+    <div class="carousel-container">
+      <button class="arrow arrow-left"><i class="fa-solid fa-chevron-left"></i></button>
+      
+      <div class="carousel">
+        <div class="event-cards">
+          <!-- Card 1 -->
+          <div class="event-card">
+            <div class="event-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+            <div class="event-card-content">
+              <span class="tag">Event</span>
+              <h4>Gratis Webinar Persiapan Karir</h4>
+              <a href="contact.html" class="btn-enroll">Daftar Sekarang</a>
+            </div>
+          </div>
+          <!-- Card 2 (Featured) -->
+          <div class="event-card featured">
+            <div class="event-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+            <div class="event-card-content">
+              <span class="tag">Event</span>
+              <h4>Gratis Webinar Persiapan Karir</h4>
+              <a href="contact.html" class="btn-enroll">Daftar Sekarang</a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="event-card">
+            <div class="event-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+            <div class="event-card-content">
+              <span class="tag">Event</span>
+              <h4>Gratis Webinar Persiapan Karir</h4>
+              <a href="contact.html" class="btn-enroll">Daftar Sekarang</a>
+            </div>
+          </div>
         </div>
       </div>
-      <button class="arrow arrow-right">&#10095;</button>
+
+      <button class="arrow arrow-right"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
   </section>
 
-  <!-- STATS -->
+  <!-- STATS / CAPAIAN -->
   <section class="stats">
+    <h2 class="section-title">Capaian <span>Hello Cation</span></h2>
     <div class="stats-grid">
       <div class="stat-card light">
         <span class="dot"></span>
@@ -149,27 +180,36 @@
     </div>
   </section>
 
-  <!-- ARTICLES -->
-  <section class="articles" id="article">
-    <h2>Seputar Beasiswa</h2>
-    <div class="article-cards">
-      <div class="article-card">
-        <div class="article-image"></div>
-        <span class="event-label">Event</span>
-        <h4>Gratis Webinar Perisiapan Karir</h4>
-        <button class="btn btn-solid small">Daftar Sekarang</button>
+  <!-- SEPUTAR BEASISWA -->
+  <section class="beasiswa-section" style="background: var(--pink-pale); border-top: 1.5px solid var(--pink-soft); border-bottom: 1.5px solid var(--pink-soft);">
+    <h2 class="section-title">Seputar Beasiswa</h2>
+    <div class="beasiswa-grid">
+      <!-- Card 1 -->
+      <div class="beasiswa-card">
+        <div class="beasiswa-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+        <div class="beasiswa-card-content">
+          <span class="tag">Event</span>
+          <h3>Gratis Webinar Persiapan Karir</h3>
+          <a href="article.html" class="btn-read">Daftar Sekarang</a>
+        </div>
       </div>
-      <div class="article-card featured">
-        <div class="article-image"></div>
-        <span class="event-label">Event</span>
-        <h4>Gratis Webinar Perisiapan Karir</h4>
-        <button class="btn btn-solid small">Daftar Sekarang</button>
+      <!-- Card 2 -->
+      <div class="beasiswa-card">
+        <div class="beasiswa-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+        <div class="beasiswa-card-content">
+          <span class="tag">Event</span>
+          <h3>Gratis Webinar Persiapan Karir</h3>
+          <a href="article.html" class="btn-read">Daftar Sekarang</a>
+        </div>
       </div>
-      <div class="article-card">
-        <div class="article-image"></div>
-        <span class="event-label">Event</span>
-        <h4>Gratis Webinar Perisiapan Karir</h4>
-        <button class="btn btn-solid small">Daftar Sekarang</button>
+      <!-- Card 3 -->
+      <div class="beasiswa-card">
+        <div class="beasiswa-card-img" style="background-image: url('hero_student.png'); background-size: cover; background-position: center;"></div>
+        <div class="beasiswa-card-content">
+          <span class="tag">Event</span>
+          <h3>Gratis Webinar Persiapan Karir</h3>
+          <a href="article.html" class="btn-read">Daftar Sekarang</a>
+        </div>
       </div>
     </div>
   </section>
@@ -180,21 +220,21 @@
     <p class="testi-desc">Jangan cuma dengar dari kami. Baca pengalaman nyata mereka yang telah berhasil mewujudkan mimpi ke Korea.</p>
 
     <div class="testi-row">
-      <button class="arrow arrow-left">&#10094;</button>
-      <div class="testi-image"></div>
+      <button class="arrow arrow-left"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="testi-image" style="background-image: url('testi_user1.png'); background-size: cover; background-position: center;"></div>
       <div class="testi-text">
         <h4>Andi R. – Family Traveler</h4>
         <p>Saya sangat terbantu dengan rekomendasi tempat wisata, kuliner, dan panduan perjalanannya. Cocok untuk pemula yang ingin liburan ke Korea.</p>
       </div>
-      <button class="arrow arrow-right">&#10095;</button>
+      <button class="arrow arrow-right"><i class="fa-solid fa-chevron-right"></i></button>
     </div>
     <div class="dots">
-      <span></span><span></span><span></span><span class="active"></span><span></span><span></span>
+      <!-- JavaScript will inject dots here -->
     </div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="footer" id="contact">
+  <footer class="footer">
     <div class="footer-top">
       <div class="footer-logo">
         <span class="logo-badge">Hc</span>
@@ -203,32 +243,38 @@
 
       <div class="footer-col">
         <h5>Alamat</h5>
-        <p>📍 Korea<br>서울특별시 노원구 공릉로 58길 130</p>
-        <p>📍 Indonesia<br>Perum Bumi Asri Jl kurma 5 blok E10 / 24, Kutabumi, Tangerang, Banten.</p>
+        <p><i class="fa-solid fa-location-dot" style="color: var(--pink-main); margin-right: 0.5rem;"></i> <strong>Korea</strong><br>서울특별시 노원구 공릉로 58길 130</p>
+        <p><i class="fa-solid fa-location-dot" style="color: var(--pink-main); margin-right: 0.5rem;"></i> <strong>Indonesia</strong><br>Perum Bumi Asri Jl kurma 5 blok E10 / 24, Kutabumi, Tangerang, Banten.</p>
       </div>
 
       <div class="footer-col">
         <h5>Support</h5>
-        <p>📞 +628823183712138</p>
-        <p>✉️ support@hellocation.id</p>
-        <p>✉️ hellocationofc@gmail.com</p>
+        <p><i class="fa-solid fa-phone" style="color: var(--pink-main); margin-right: 0.5rem;"></i> +628823183712138</p>
+        <p><i class="fa-solid fa-envelope" style="color: var(--pink-main); margin-right: 0.5rem;"></i> support@hellocation.id</p>
+        <p><i class="fa-solid fa-envelope" style="color: var(--pink-main); margin-right: 0.5rem;"></i> hellocationofc@gmail.com</p>
       </div>
 
       <div class="footer-col">
         <h5>Lainnya</h5>
         <div class="socials">
-          <span>◎</span><span>f</span><span>𝕏</span>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
         <div class="socials">
-          <span>📌</span><span>in</span><span>▶</span>
+          <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p>Copyright @ 2026 Hellocation.id</p>
+      <p>Copyright @ 2026 <a href="index.html">Hellocation.id</a></p>
     </div>
   </footer>
 
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
 </body>
 </html>
